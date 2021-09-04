@@ -1,0 +1,187 @@
+* 
+{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+	width: 1170px;
+	margin: auto;
+}
+
+header {
+	background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(https://images.unsplash.com/photo-1546448396-6aef80193ceb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80);
+	height: 100vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+}
+
+.nav-area {
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+
+.nav-area li {
+	display: inline-block;
+}
+
+.nav-area li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: poppins;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.nav-area li a:hover {
+	background: #fff;
+	color: #333;
+}
+
+.welcome-text {
+	position: absolute;
+	width: 600px;
+	height: 300px;
+	margin: 20% 30%;
+	text-align: center;
+}
+
+.welcome-text h1 {
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 60px;
+}
+
+.test-text h1 {
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 50px;
+}
+
+.welcome-text span {
+	color: #00fecb;
+}
+
+.welcome-text img
+{
+	float: left;
+	border-radius: 50%;
+	width: 150px;
+	height: 100px;
+}
+
+.image2 img
+{
+	float: right;
+	border-radius: 50%;
+	width: 150px;
+	height: 100px;
+}
+
+.centre img
+{
+	margin: 75px;
+	border-radius: 50%;
+	width: 150px;
+	height: 100px;
+}
+
+.welcome-text h1 span:before
+{
+    content: '';
+    animation: animate infinite 5s;
+}
+
+@keyframes animate
+{
+    0%
+    {
+        content: "Spanish";
+    }
+
+    50%
+    {
+        content: "French";
+    }
+
+    100%
+    {
+        content: "Japanese";
+    }
+}
+
+.bodySection
+{
+	color: #ff006a;
+	position: absolute;
+	width: 600px;
+	height: 25px;
+	margin: 17.5% 30%;
+	text-align: center;
+}
+
+.aboutMeHeader
+{
+	color: #00fecb;
+	position: absolute;
+	width: 600px;
+	height: 25px;
+	margin: 50% 30%;
+	text-align: center;
+}
+
+.aboutMe
+{
+	color: #ffffff;
+	position: absolute;
+	width: 600px;
+	height: 25px;
+	margin: 55% 30%;
+	text-align: center;
+}
+
+.langs h1
+{
+	color: #fff;
+	text-transform: uppercase;
+	position: absolute;
+	width: 600px;
+	height: 25px;
+	margin: 30% 30%;
+	text-align: center;
+}
+
+.contact
+{
+	text-align: center;
+	font-size: 100px;
+	color:#fff;
+}
+
+.timetable
+{
+	text-align: center;
+	color: #fff;
+}
+
+.contactinfo
+{
+	color: #fff;
+	text-align: center;
+}
+
+.testimonials
+{
+	text-align: center;
+	color: #fff;
+}
