@@ -172,16 +172,19 @@ header {
 {
 	text-align: center;
 	color: #fff;
+	font-family: 'Courier New', Courier, monospace;
 }
 
 .contactinfo
 {
 	color: #fff;
 	text-align: center;
+	font-family: 'Courier New', Courier, monospace;
 }
 
 .testimonials
 {
 	text-align: center;
 	color: #fff;
+	font-family: 'Courier New', Courier, monospace;
 }
